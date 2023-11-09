@@ -64,6 +64,10 @@ public class MaquinaExpendedoraSimple {
         this.precioBillete = precioBillete - restarPrecio;
         
     }
+    public void vaciarDepositoDinero(){
+        this.totalDineroAcumulado = 0;
+
+    }
 
     /**
      * Imprime un billete para el cliente actual
