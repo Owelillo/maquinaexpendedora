@@ -24,8 +24,8 @@ public class MaquinaExpendedoraSimple {
         estacionDestino = "Mansilla";
         
     }
-    public MaquinaExpendedoraSimple(String destino) {
-        precioBillete = 20;
+    public MaquinaExpendedoraSimple(int precioDelBillete, String destino) {
+        precioBillete = precioDelBillete;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "León";
